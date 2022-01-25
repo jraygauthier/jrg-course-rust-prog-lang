@@ -1,0 +1,10 @@
+{
+    "files.exclude": {
+        "**/.rustup/**": true,
+        "**/.cargo/**": true
+    },
+    "files.watcherExclude": {
+        "**/.rustup/**": true,
+        "**/.cargo/**": true
+    }
+}
