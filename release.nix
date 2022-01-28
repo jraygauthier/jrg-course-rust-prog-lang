@@ -30,8 +30,6 @@ rec {
 
       RUSTUP_TOOLCHAIN = rustupToolchain;
 
-    # export PATH=$PATH:${RUSTUP_HOME}/toolchains/${rustupToolchain}-${rustBuildHostTriple}/bin/
-
       shellHook = ''
         export PATH=$PATH:${CARGO_HOME}/bin
 
