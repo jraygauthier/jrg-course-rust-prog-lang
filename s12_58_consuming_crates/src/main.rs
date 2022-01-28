@@ -1,4 +1,5 @@
-extern crate rand;
+// No longer needed since rust 2018.
+// extern crate rand;
 use rand::Rng;
 
 fn main() {
